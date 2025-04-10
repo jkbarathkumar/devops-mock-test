@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        REGISTRY = "your-dockerhub-username/demo"
+        REGISTRY = "barathkumar29/microservice-application"
         IMAGE_TAG = "${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         SONARQUBE_ENV = "SonarQube"
     }
