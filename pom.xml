@@ -15,6 +15,7 @@
         <spring.boot.version>2.6.3</spring.boot.version>
         <sonar.projectKey>devops_test</sonar.projectKey>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <!-- <sonar.login>sqp_0618e7080e30e45135fb8c1869c43703197bb350</sonar.login> -->
     </properties>
 
     <dependencies>
