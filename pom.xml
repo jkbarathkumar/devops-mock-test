@@ -13,8 +13,8 @@
     <properties>
         <java.version>11</java.version>
         <spring.boot.version>2.6.3</spring.boot.version>
-        <sonar.projectKey>your-key</sonar.projectKey>
-        <sonar.host.url>http://<your-sonarqube-host></sonar.host.url>
+        <sonar.projectKey>devops_test</sonar.projectKey>
+        <sonar.host.url>http://localhost:9000</sonar.host.url>
     </properties>
 
     <dependencies>
