@@ -12,8 +12,8 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String hello() {
-        return "Hello from CI/CD Java Microservice!";
+        return "Test OK!";
     }
 }
